@@ -1,0 +1,76 @@
+{
+	"common": {
+		"name": "universal_string",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Universal String",
+		"titleLang": {
+			"en": "Universal String",
+			"de": "Universal String",
+			"ru": "Universal String",
+			"pt": "Universal String",
+			"nl": "Universal String",
+			"fr": "Universal String",
+			"it": "Universal String",
+			"es": "Universal String",
+			"pl": "Universal String",
+			"zh-cn": "Universal String"
+		},
+		"desc": {
+			"en": "Universal String Adapter for sending custom commands",
+			"de": "Universal String Adapter for sending custom commands",
+			"ru": "Universal String Adapter for sending custom commands",
+			"pt": "Universal String Adapter for sending custom commands",
+			"nl": "Universal String Adapter for sending custom commands",
+			"fr": "Universal String Adapter for sending custom commands",
+			"it": "Universal String Adapter for sending custom commands",
+			"es": "Universal String Adapter for sending custom commands",
+			"pl": "Universal String Adapter for sending custom commands",
+			"zh-cn": "Universal String Adapter for sending custom commands"
+		},
+		"authors": [
+			"Afischi <urksle@gmx.de>"
+		],
+		"keywords": [
+			"universal string telnet"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "universal_string.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/Afischi/ioBroker.universal_string/master/admin/universal_string.png",
+		"readme": "https://github.com/Afischi/ioBroker.universal_string/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "hardware",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "push",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=1.4.2"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
